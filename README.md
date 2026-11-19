@@ -31,11 +31,13 @@ LAB_7_FDSI_AMADOR_ANDRADE/
 │   └── hardened.txt            # Prompt fortificado con controles defensivos estructurados
 ├── docs/
 │   ├── INFORME_LABORATORIO.md  # Informe técnico completo del laboratorio (entregable final)
-│   └── guia_original.md        # Guía oficial del laboratorio suministrada por el docente
+│   ├── guia_original.md        # Guía oficial del laboratorio suministrada por el docente
+│   └── img/                    # Evidencias fotográficas de consola y panel web Promptfoo (8 capturas)
 ├── results/
 │   ├── eval_comparison.json    # Resultados detallados de cada corrida y medición empírica
 │   ├── tabla_comparativa.md    # Matriz comparativa de resultados Red Team vs Blue Team
-│   └── promptfoo_baseline.json # Exportación de resultados automatizados de Promptfoo
+│   ├── promptfoo_baseline.json # Exportación de resultados automatizados baseline
+│   └── promptfoo_hardened.json # Exportación oficial Promptfoo hardened (100% PASS)
 ├── scripts/
 │   └── run_eval.py             # Script de automatización de pruebas y evaluación heurística
 └── README.md                   # Documentación general del repositorio
