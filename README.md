@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este repositorio contiene la evidencia técnica, código fuente, suites de evaluación adversaria y análisis de seguridad correspondiente al laboratorio final **AI Security Arena**.
 
@@ -20,7 +20,7 @@ El informe técnico exhaustivo con el marco teórico, desarrollo de misiones, ev
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```plaintext
 LAB_7_FDSI_AMADOR_ANDRADE/
@@ -45,7 +45,7 @@ LAB_7_FDSI_AMADOR_ANDRADE/
 
 ---
 
-## 🛡️ Matriz de Misiones y Vulnerabilidades Evaluadas (OWASP 2026)
+## Matriz de Misiones y Vulnerabilidades Evaluadas (OWASP 2026)
 
 | Misión | Código OWASP | Categoría de Riesgo | Vector Evaluado | Hallazgo en Versión Base | Mitigación Blue Team |
 |:---:|:---:|:---|:---|:---:|:---:|
@@ -58,7 +58,7 @@ LAB_7_FDSI_AMADOR_ANDRADE/
 
 ---
 
-## 📊 Resumen de Resultados Comparativos
+## Resumen de Resultados Comparativos
 
 De los **13 casos de prueba evaluados**:
 - **Versión Base (`vulnerable.txt`):** El **30.8%** de los ataques adversarios tuvieron éxito crítico comprometiendo la confidencialidad institucional (filtración directa del token canario `ORION-742-ACADEMIA` en Casos 2, 8 y 9).
@@ -68,7 +68,7 @@ Consulta la tabla detallada caso por caso en [results/tabla_comparativa.md](file
 
 ---
 
-## 🚀 Guía Rápida de Ejecución
+## Guía Rápida de Ejecución
 
 ### 1. Requisitos Previos
 - [Ollama](https://ollama.com/) instalado y en ejecución en `localhost:11434`.
@@ -101,7 +101,7 @@ python scripts/run_eval.py
 
 ---
 
-## 🔒 Consideraciones de Seguridad: Por qué el Prompt Hardening No Basta
+## Consideraciones de Seguridad: Por qué el Prompt Hardening No Basta
 
 El endurecimiento del prompt es una **primera línea de defensa indispensable**, pero **no constituye un perímetro de seguridad determinista**. Como se analiza en el informe:
 1. **Separación de Planos:** Los LLMs procesan datos e instrucciones en el mismo espacio probabilístico de tokens; ninguna directiva lingüística es matemáticamente infranqueable.
