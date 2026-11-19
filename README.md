@@ -3,7 +3,7 @@
 > **Tema:** Seguridad ofensiva y defensiva en aplicaciones de Inteligencia Artificial Generativa — OWASP Top 10 for LLM Applications 2026  
 > **Curso:** Fundamentos de Seguridad de la Información (FDSI_2L-B-LABLA-2602)  
 > **Institución:** Escuela Colombiana de Ingeniería Julio Garavito  
-> **Estudiantes:** Diego Fabián Andrade Díaz & Juan Esteban Amador  
+> **Estudiantes:** Diego Fabian Andrade Durán & Felipe Amador Gonzalez  
 > **Fecha:** 18 de noviembre de 2026  
 
 ---

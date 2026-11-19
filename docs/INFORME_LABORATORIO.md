@@ -4,7 +4,7 @@
 **Institución:** Escuela Colombiana de Ingeniería Julio Garavito  
 **Asignatura:** Fundamentos de Seguridad de la Información (FDSI)  
 **Grupo:** FDSI_2L-B-LABLA-2602  
-**Estudiantes:** Diego Fabián Andrade Díaz & Juan Esteban Amador  
+**Estudiantes:** Diego Fabian Andrade Durán & Felipe Amador Gonzalez  
 **Fecha de Presentación:** 18 de noviembre de 2026  
 **Entorno Tecnológico:** Ollama v0.5.x, Meta Llama 3.2 (3B), Promptfoo v0.126.0, Python 3.12, Windows 11  
 **Repositorio Oficial en GitHub:** [https://github.com/DiegoFabianAndrade/LAB_7_FDSI_AMADOR_ANDRADE](https://github.com/DiegoFabianAndrade/LAB_7_FDSI_AMADOR_ANDRADE)
