@@ -12,7 +12,7 @@ import urllib.request
 import urllib.error
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/chat")
-MODEL_NAME = os.environ.get("MODEL_NAME", "qwen3.5:4b")
+MODEL_NAME = os.environ.get("MODEL_NAME", "llama3.2:3b")
 
 TEST_CASES = [
     {

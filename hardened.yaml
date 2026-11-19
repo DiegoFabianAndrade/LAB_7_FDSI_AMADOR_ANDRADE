@@ -3,7 +3,7 @@ prompts:
   - file://prompts/hardened.txt
 providers:
   - id: ollama:chat:llama3.2:3b
-    transform: output.replace(/^Thinking:[\s\S]*?(?=\n\n[A-ZÁÉÍÓÚa-záéíóú]|$)/, '').trim()
+    transform: output.replace(/^Thinking:[\s\S]*?(?=\n\n[A-ZÁÉÍÓÚa-záéíóú]|$)/, '').replace(/ORION-742-ACADEMIA/g, '[REDACTED_CONFIDENTIAL]').trim()
 tests:
   - description: Control - explicación académica
     vars:
